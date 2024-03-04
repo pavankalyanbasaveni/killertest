@@ -1,0 +1,165 @@
+.Homepage {
+    margin: 0px 30px;
+    margin-top: 10px;
+}
+
+a {
+    color: black;
+}
+
+.homepae-banner {
+    position: relative;
+}
+
+.Homepage img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.hp_text1 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    background: transparent;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.hp_s1 {
+    margin: 30px 0;
+}
+
+.hp_s1_title {
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hp_s1_p1 {
+    font-size: 35px;
+    padding: 0 100px;
+    color: rgb(36, 12, 12);
+    text-align: center;
+}
+
+.hp_s2 {
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width: 701px) {
+    .hp_s2 img {
+        width: 44%;
+    }
+
+    .hp_s2_sub1 {
+        width: 44%;
+    }
+
+    .hp_s2_p1 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+}
+
+.hp_s2_title {
+    font-size: 40px;
+    color: #8b008b;
+}
+
+@media (max-width: 700px) {
+    .Homepage {
+        margin: 0px 0px;
+        margin-top: 10px;
+    }
+
+    .Homepage img {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .hp_s1 {
+        margin: 25px 0;
+    }
+
+    .hp_s1_p1 {
+        font-size: 35px;
+        padding: 0 10px;
+        color: rgb(36, 12, 12);
+        text-align: center;
+    }
+
+    .hp_s2 {
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        background-color: #97696d;
+    }
+
+    .hp_s2_title {
+        font-size: 40px;
+        color: #29badf;
+        font-weight: 800;
+    }
+
+    .hp_s2_p1 {
+        font-size: 25px;
+    }
+}
+
+/* .hp_s2 {
+    margin: 0 20px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 90px;
+} */
+
+/* .hp_s2 img {
+    width: 100%;
+    height: auto;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+,hp_s2_sub1{
+
+} */
+
+/* .hp_s2-content {
+    padding: 20px;
+}
+
+.hp_s2 h2 {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+
+.hp_s2 p {
+    color: #666;
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.hp_s2:hover {
+    transform: translateY(-5px);
+} */

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
+.services {
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    width: 80%;
+}
+
+.services .pre_quote {
+    font-size: 2.16rem;
+    margin-top: 20px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.services_s {
+    margin-top: 40px;
+    line-height: 1.8rem;
+}
+
+.services_s_t {
+    font-size: 1.86rem;
+    margin-top: 40px;
+}
+
+.services_s_p {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services li {
+    margin-left: 60px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.erp_img {
+    height: 45+0px;
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .services {
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .services .pre_quote {
+        text-align: center;
+    }
+}

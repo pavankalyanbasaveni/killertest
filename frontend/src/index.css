@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+
+:root {
+  background-color: #afeeee;
+}
+
+@media (min-width: 701px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 5.8rem;
+  }
+}
